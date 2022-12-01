@@ -1,0 +1,30 @@
+.content {
+  padding-top: 195rpx;
+  .content_1 {
+    .content_1_1 {
+      width: 750rpx;
+      height: 122rpx;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 26rpx;
+      border-bottom: 2rpx solid #f6f6f6;
+      .content_1_1_1 {
+        font-size: 26rpx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #1c1c1c;
+        line-height: 1;
+        margin-bottom: 16rpx;
+      }
+      .content_1_1_2 {
+        font-size: 22rpx;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #9e9e9e;
+        line-height: 1;
+      }
+    }
+  }
+}

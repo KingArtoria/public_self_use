@@ -1,0 +1,195 @@
+.content {
+  background: #f2f2f2;
+  position: absolute;
+  height: 100%;
+  .content_1 {
+    width: 750rpx;
+    height: 508rpx;
+    background: linear-gradient(180deg, #b4d2ff 0%, #f2f2f2 100%);
+    padding: 0 25rpx;
+    padding-top: 159rpx;
+    box-sizing: border-box;
+    position: relative;
+    .content_1_1 {
+      display: flex;
+      align-items: center;
+      .content_1_1_1 {
+        position: relative;
+        margin-right: 28rpx;
+        .content_1_1_1_1 {
+          width: 110rpx;
+          height: 110rpx;
+          border: 2rpx solid #ffffff;
+          border-radius: 50%;
+        }
+        .content_1_1_1_2 {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          width: 31rpx;
+          height: 31rpx;
+        }
+      }
+      .content_1_1_2 {
+        .content_1_1_2_1 {
+          display: flex;
+          align-items: center;
+          .content_1_1_2_1_1 {
+            font-size: 34rpx;
+            font-family: PingFang SC;
+            font-weight: bold;
+            color: #000000;
+            margin-right: 18rpx;
+          }
+          .content_1_1_2_1_2 {
+            width: 31rpx;
+            height: 29rpx;
+            margin-right: 7rpx;
+          }
+          .content_1_1_2_1_3 {
+            font-size: 40rpx;
+            font-family: PingFang SC;
+            font-weight: 800;
+            color: #ff3d20;
+            line-height: 1;
+          }
+        }
+        .content_1_1_2_2 {
+          font-size: 24rpx;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #624545;
+          line-height: 1;
+          margin-top: 25rpx;
+        }
+      }
+    }
+    .content_1_2 {
+      width: 700rpx;
+      height: 107rpx;
+      margin: 0 auto;
+      margin-top: 38rpx;
+      background: url('../../static/ruzhu-tu.webp') no-repeat;
+      background-size: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      .content_1_2_1 {
+        font-size: 28rpx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        font-style: italic;
+        color: #ffdb85;
+        position: absolute;
+        right: 23rpx;
+      }
+      .content_1_2_2 {
+        position: absolute;
+        right: 23rpx;
+        width: 142rpx;
+        height: 50rpx;
+        background: linear-gradient(90deg, #ffdea2 0%, #ffbe71 100%);
+        border-radius: 25rpx;
+        line-height: 50rpx;
+        text-align: center;
+        font-size: 24rpx;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #12020c;
+      }
+    }
+    .content_1_3 {
+      height: 94rpx;
+      line-height: 94rpx;
+      width: 700rpx;
+      padding-left: 33rpx;
+      box-sizing: border-box;
+      font-size: 30rpx;
+      font-family: PingFang SC;
+      font-weight: 800;
+      color: #000000;
+      background: #fff;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .content_2 {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    width: 700rpx;
+    height: 161rpx;
+    padding-top: 15rpx;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 0px 0px 15px 15px;
+    .content_2_1 {
+      text-align: center;
+      flex: 1;
+      position: relative;
+      .content_2_1_1 {
+        width: 43rpx;
+        height: 43rpx;
+        margin-bottom: 27rpx;
+      }
+      .content_2_1_2 {
+        font-size: 26rpx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #000000;
+        line-height: 1;
+      }
+      .content_2_1_3 {
+        position: absolute;
+        height: 26rpx;
+        background: #fd463e;
+        border-radius: 13rpx;
+        font-size: 20rpx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 26rpx;
+        padding: 0 12rpx;
+        top: -21rpx;
+        right: 18rpx;
+      }
+    }
+  }
+  .content_3 {
+    width: 700rpx;
+    height: 431rpx;
+    background: #ffffff;
+    border-radius: 15rpx;
+    margin: 0 auto;
+    margin-top: 19rpx;
+    .content_3_1 {
+      height: 116rpx;
+      line-height: 116rpx;
+      padding-left: 33rpx;
+      font-size: 30rpx;
+      font-family: PingFang SC;
+      font-weight: 800;
+      color: #000000;
+    }
+    .content_3_2 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      .content_3_2_1 {
+        width: calc(100% / 4);
+        text-align: center;
+        margin-bottom: 60rpx;
+        .content_3_2_1_1 {
+          margin-bottom: 20rpx;
+        }
+        .content_3_2_1_2 {
+          font-size: 26rpx;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #000000;
+          line-height: 1;
+        }
+      }
+    }
+  }
+}

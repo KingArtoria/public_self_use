@@ -1,0 +1,94 @@
+.head {
+  width: 750rpx;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 120rpx 28rpx 42rpx 26rpx;
+  border-bottom: 1rpx solid #f6f6f6;
+  .head_1,
+  .head_2,
+  .head_3 {
+    flex: 1;
+    .head_1_1 {
+      width: 16rpx;
+      height: 28rpx;
+    }
+  }
+  .head_2 {
+    text-align: center;
+    font-size: 34rpx;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1;
+  }
+  .head_3 {
+    font-size: 30rpx;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #e5040f;
+    text-align: end;
+  }
+}
+.content {
+  .content_1 {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 35rpx 26rpx 24rpx 26rpx;
+    border-bottom: 1rpx solid #f6f6f6;
+    .content_1_1 {
+      width: 78rpx;
+      height: 78rpx;
+      border-radius: 15rpx;
+      margin-right: 24rpx;
+    }
+    .content_1_2 {
+      flex: 1;
+      .content_1_2_1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25rpx;
+        .content_1_2_1_1 {
+          font-size: 28rpx;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #1a1a1a;
+        }
+        .content_1_2_1_2 {
+          font-size: 28rpx;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #ff3f22;
+          line-height: 1;
+        }
+      }
+      .content_1_2_2 {
+        display: flex;
+        margin-bottom: 20rpx;
+        .content_1_2_2_1 {
+          height: 32rpx;
+          background: #f2f2f2;
+          border-radius: 5rpx;
+          line-height: 32rpx;
+          font-size: 20rpx;
+          font-family: PingFang SC;
+          font-weight: 400;
+          color: #727270;
+          padding: 0 13rpx;
+          box-sizing: border-box;
+        }
+      }
+      .content_1_2_3 {
+        font-size: 22rpx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #9b9b9b;
+        line-height: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationStyle": "custom", "onReachBottomDistance": 300 } },
+    { "path": "pages/hall/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/assets/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/task/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/verified", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/verified_ok", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/my_task", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/index/info", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/login/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/login/sign", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/assets/withdraw", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/points_mall", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/feedback", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/settings", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/change_password", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/my_team", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/vip", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/promote", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/login/forget_password", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/edit_info", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/bind_account", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/submit", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/about_us", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/index/news", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/index/search", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/index/protocol", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/hall/mall", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/leaderboard", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/record", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/open_lower", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/pay", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/user/make_list", "style": { "navigationStyle": "custom" } }
+  ],
+  "tabBar": {
+    "color": "#B0ADAD",
+    "selectedColor": "#1F73F1",
+    "backgroundColor": "#ffffff",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "首页", "iconPath": "/static/shouye-a.webp", "selectedIconPath": "/static/shouye-ll.webp" },
+      { "pagePath": "pages/hall/index", "text": "大厅", "iconPath": "/static/dating_a.webp", "selectedIconPath": "/static/dating_l.webp" },
+      { "pagePath": "pages/assets/index", "text": "资产", "iconPath": "/static/zichan-a.webp", "selectedIconPath": "/static/zichan-l.webp" },
+      { "pagePath": "pages/user/index", "text": "我的", "iconPath": "/static/wode_a.webp", "selectedIconPath": "/static/wode-l.webp" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "火客云创",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

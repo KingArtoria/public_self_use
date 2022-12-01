@@ -1,0 +1,43 @@
+.head {
+  width: 750rpx;
+  height: 183rpx;
+  background: linear-gradient(0deg, #b4d2ff 0%, #e5f1ff 100%);
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  padding-top: 121rpx;
+  box-sizing: border-box;
+}
+.content {
+  width: 100%;
+  .content_1 {
+    width: 100%;
+    height: 92rpx;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 3;
+    .content_1_1 {
+      font-size: 30rpx;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #424242;
+      transition: all 0.3s;
+      line-height: 1;
+      flex: 1;
+      text-align: center;
+    }
+    .content_1_2 {
+      width: 39rpx;
+      height: 7rpx;
+      background: #1f73f1;
+      border-radius: 4rpx;
+      position: absolute;
+      bottom: 10rpx;
+      transition: all 0.3s;
+    }
+  }
+}
